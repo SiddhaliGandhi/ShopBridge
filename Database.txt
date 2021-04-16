@@ -1,0 +1,10 @@
+CREATE DATABASE ThinkBridgeAssignment;
+
+CREATE TABLE ShopBridge
+(
+	productID int NOT NULL PRIMARY KEY,
+	name varchar(50) NOT NULL,
+	discription varchar(300) NOT NULL,
+	quantity int NOT NULL,
+	price int NOT NULL
+);
